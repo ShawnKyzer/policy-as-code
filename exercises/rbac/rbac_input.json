@@ -1,0 +1,5 @@
+{
+    "user": "alice",
+    "action": "read",
+    "type": "patient_records"
+  }

@@ -1,0 +1,46 @@
+{
+    "user_attributes": {
+        "alice": {
+            "role": "doctor",
+            "clearance_level": 4
+        },
+        "bob": {
+            "role": "pharmacist",
+            "clearance_level": 2
+        },
+        "carol": {
+            "role": "researcher",
+            "clearance_level": 3
+        },
+        "dave": {
+            "role": "admin",
+            "seniority_level": 6
+        }
+    },
+    "resource_attributes": {
+        "patient_record_1": {
+            "sensitivity_level": 3,
+            "anonymized": false
+        },
+        "patient_record_2": {
+            "sensitivity_level": 5,
+            "anonymized": false
+        },
+        "prescription_1": {
+            "sensitivity_level": 2,
+            "anonymized": false
+        },
+        "prescription_2": {
+            "sensitivity_level": 4,
+            "anonymized": false
+        },
+        "clinical_trial_result_1": {
+            "sensitivity_level": 2,
+            "anonymized": true
+        },
+        "clinical_trial_result_2": {
+            "sensitivity_level": 4,
+            "anonymized": false
+        }
+    }
+}

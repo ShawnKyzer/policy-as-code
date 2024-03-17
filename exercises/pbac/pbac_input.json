@@ -1,0 +1,44 @@
+[
+    {
+      "user": "alice",
+      "resource": "patient_record_1",
+      "action": "read",
+      "resource_type": "patient_record"
+    },
+    {
+      "user": "alice",
+      "resource": "patient_record_2",
+      "action": "update",
+      "resource_type": "patient_record"
+    },
+    {
+      "user": "bob",
+      "resource": "prescription_1",
+      "action": "read",
+      "resource_type": "prescription"
+    },
+    {
+      "user": "bob",
+      "resource": "prescription_2",
+      "action": "read",
+      "resource_type": "prescription"
+    },
+    {
+      "user": "carol",
+      "resource": "clinical_trial_result_1",
+      "action": "read",
+      "resource_type": "clinical_trial_result"
+    },
+    {
+      "user": "carol",
+      "resource": "clinical_trial_result_2",
+      "action": "read",
+      "resource_type": "clinical_trial_result"
+    },
+    {
+      "user": "dave",
+      "resource": "patient_record_2",
+      "action": "delete",
+      "resource_type": "patient_record"
+    }
+  ]

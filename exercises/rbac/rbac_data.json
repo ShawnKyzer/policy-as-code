@@ -1,0 +1,37 @@
+{
+    "user_roles": {
+      "alice": ["doctor", "researcher"],
+      "bob": ["pharmacist"],
+      "carol": ["admin"]
+    },
+    "role_grants": {
+      "doctor": [
+        {
+          "action": "read",
+          "type": "patient_records"
+        },
+        {
+          "action": "create",
+          "type": "prescriptions"
+        }
+      ],
+      "pharmacist": [
+        {
+          "action": "read",
+          "type": "prescriptions"
+        }
+      ],
+      "researcher": [
+        {
+          "action": "read",
+          "type": "clinical_trial_results"
+        }
+      ],
+      "admin": [
+        {
+          "action": "manage",
+          "type": "all"
+        }
+      ]
+    }
+  }
